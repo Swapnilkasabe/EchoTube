@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+# EchoTube
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to EchoTube, a responsive YouTube clone built with React and Material-UI for exploring videos and staying updated on various categories.
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- Introduction
+- Features
+- Technologies Used
+- Installation
+- Deployment
 
-### `npm start`
+## Introduction
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+EchoTube is a frontend application designed to replicate core features of YouTube. It allows users to browse videos, search for specific content, and explore different categories seamlessly.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features
 
-### `npm test`
+- **Explore Videos:** Navigate through various categories such as Coding, Music, ReactJS, Education, Gaming, and more.
+- **Video Detail View:** Watch detailed video content and related videos.
+- **Channel Detail:** Explore channel details and related videos.
+- **Search Functionality** Search for videos based on keywords or phrases.
+- **User-friendly Navigation:** Easy-to-navigate layout for a seamless user experience.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Technologies Used
 
-### `npm run build`
+- **React.js:** Frontend JavaScript library for building user interfaces.
+- **Material-UI:** React UI framework for creating responsive and accessible components.
+- **React Router DOM:** For handling navigation within the application.
+- **Axios:** HTTP client for making API requests.
+- **RapidAPI:** Integration for fetching YouTube data.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Installation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Clone the repository:
+   git clone https://github.com/Swapnilkasabe/EchoTube.git
+   cd EchoTube
 
-### `npm run eject`
+2. Install dependencies:
+npm install
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. Start the development server:
+npm start
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Deployment
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Deployed on Netlify for hosting the frontend application.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
